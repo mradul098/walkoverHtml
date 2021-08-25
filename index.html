@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Mradul Blog</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="text-uppercase main_heading">Walkover Web</h1>
+                <p class="main_heading__para">Welcome </p>
+            </div>
+            <!-- //the main image -->
+            <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+                
+                <button class="text-uppercase">View Home</button>
+            </div>
+        </header>
+        <!-- header ends -->
+        <!-- two sided blog part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                <!-- to get the space form left and right -->
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the blog  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Title Heading</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> Aug 12, 2020 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/p1.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Walkover Web</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>
+                                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">Replies <badge class="bg-white text-dark p-2">1</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images//p2.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Amazing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Title Heading</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> Aug 12, 2020 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/p3.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Walkover Web</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>
+                                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/p3.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 11, 2020, 7:20 PM </p>
+                                                <p>Great</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/p3.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Amazing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Title Heading</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> Aug 12, 2020 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/p3.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Walkover Web</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p>
+                                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/p3.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Amazing</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/p3.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Amazing</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/p3.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Amazing</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/p3.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mradul, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Awesome</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+        <footer>
+            <p class="text-center py-5 bg-light">design with love By ©Mradul</p>
+        </footer>
+        
+    </body>
+
+</html>
